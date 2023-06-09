@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logo/favicon.png" type="image/x-icon">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- Mi Css -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Animaciones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- SEO -->
+    <meta name="description" content="Pagina oficial de Jimena baron">
+    <meta name="keywords" content="J'MENA, BIOGRAFIA, DISCOGRAFIA, VIDEOS, FOTOS, ACTUACIONES">
+    <title> 🩸 🖤 J mena 🖤 🩸</title>
+</head>
+
+<body>
+    <header class="header sticky-top">
+        <!-- "cabecera" se cambian clases implementando BEM y utilizando ingles -->
+        <nav class="header__navbar navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+                <a href="#" class="header__logo navbar-brand">
+                    <!-- logocabecera -->
+                    <img src="img/logo/Logo_JMENA.png" alt="fondo-jmena" class="img-header img-fluid" width="200px">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a href="index.html" class="menu-i nav-link" aria-current="page">Inicio</a>
+                        </li>
+                        <li class="nav-item"><a href="/pages/discografia.html" class="menu-i nav-link">Discografía</a></li>
+                        <li class="nav-item"><a href="/pages/fotos.html" class="menu-i nav-link">Fotos</a></li>
+                        <li class="nav-item"><a href="/pages/videos.html" class="menu-i nav-link">Videos</a></li>
+                        <li class="nav-item"><a href="/pages/contacto.html" class="menu-i nav-link"><span>Contacto</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- reproductor de audio promocional -->
+        <section id="audio">
+            <div class="audio fixed-top">
+                <div class="audio__tittle animate__animated animate__rubberBand animate__delay-1s">
+                    <h2 class="float-end"><span>Subí el volumen: "Amigos"</span></h2>
+                </div>
+                <div class="audio__premmier">
+                    <audio class="float-end" src="audios/amigo.mp3" controls autoplay muted loop></audio>
+                </div>
+            </div>
+        </section>
+        <section id="inicio">
+            <div class="container inicio__container">
+                <div class="inicio__texts">
+                    <h1> 🩸 🖤 MALA SANGRE 🖤 🩸 </h1>
+                    <H2 class="animate__animated animate__rubberBand animate__delay-2s">NUEVO</H2>
+                </div>
+                <div class="inicio__img">
+                    <img src="img/04-discografía/tapas-discos/mala-sangre.webp" alt="disco estreno mala sangre de jimena baron">
+                </div>
+                <div class="inicio__completedisc">
+                    <h2 class="escuchalo"><span>Escuchalo completo ACÁ 👉</span></h2>
+                    <a href="https://www.youtube.com/watch?v=rcyM6mmtuTU" target="_blank"><img
+                            src="img/iconos/youtube.png" alt="enlace a discografia completa de jimena baron"></a>
+                </div>
+            </div>
+        </section>
+        <section id="bio">
+            <div class="container bio__container">
+                <div class="row">
+                    <div class="bio__tittle">
+                        <h1 class="">Biografía</h1>
+                    </div>
+                    <div class="bio__pic col-lg-6 align-self-start">
+                        <!-- foto-bio -->
+                        <img src="img/02-bio/bio.webp" alt="foto de jimena baron">
+                    </div>
+                    <div class="bio__text col-lg-6 align-self-center">
+                        <!-- text-bio -->
+                        <p>Jimena Barón (Jimena Valentina Pérez Guevara) nació en Buenos Aires, Argentina; el 24 de mayo
+                            de
+                            1987.
+                            Más conocida artísticamente como J Mena​ es una actriz, cantante y compositora argentina.
+
+                            Conocida por participar en varias telenovelas como Gasoleros, Los Roldán, Casi ángeles, Los
+                            únicos y
+                            Esperanza mía, entre otras.
+
+                            En 2017, inició su carrera musical, con la que obtuvo un rápido reconocimiento.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section id="tour">
+            <div class="container tour__container">
+                <div class="tour__tittle">
+                    <h1>Tour</h1>
+                </div>
+                <div class="tour__videopremiere">
+                    <video src="img/03-tour/video-tour/tour-malasangre.mp4" controls autoplay muted loop></video>
+                </div>
+                <div class="tour__banners">
+                    <div class="banners__pics">
+                        <h3>13-06</h3>
+                        <img src="img/03-tour/funciones/01-tour-13-06-teatro opera.webp" alt="concierto 13/06 en teatro opera">
+                        <a href="#tour">
+                            <h2><span>👉 Sacá Tú TICKET 👈</span></h2>
+                        </a>
+                    </div>
+                    <div class="banners__pics">
+                        <h3>30-06</h3>
+                        <img src="img/03-tour/funciones/02-tour-30-06-quality.webp" alt="concierto 30/06 en quality espacio"><br>
+                        <a href="#tour">
+                            <h2><span>👉 Sacá Tú TICKET 👈</span></h2>
+                        </a>
+                    </div>
+                    <div class="banners__pics">
+                        <h3>01/07</h3>
+                        <img src="img/03-tour/funciones/03-tour-01-7-teatro el circulo.webp" alt="concierto 01/07 en teatro el circulo"><br>
+                        <a href="#tour">
+                            <h2><span>👉 Sacá Tú TICKET 👈</span></h2>
+                        </a>
+                    </div>
+                </div>
+                <div class="tour__thanks">
+                    <h2><span>💞💗💕 Te Espero 💕💗💞</span></h2>
+                </div>
+            </div>
+        </section>
+        <section id="index-disc">
+            <div class="container index-disc__container">
+                <h1>Discografía</h1>
+                <div class="index-disc__discs">
+                    <div class="index-disc__pics">
+                        <h2 class="animate__animated animate__rubberBand animate__delay-2s">Mala Sangre-<span>NUEVO</span></h2>
+                        <img src="img/04-discografía/tapas-discos/mala-sangre.webp" alt="disco estreno mala sangre de jimena baron">
+                    </div>
+                    <div class="index-disc__pics">
+                        <h2>La Cobra</h2>
+                        <img src="img/04-discografía/tapas-discos/la cobra.webp" alt="disco la cobra de jimena baron">
+                    </div>
+                    <div class="index-disc__pics">
+                        <!-- foto-disc -->
+                        <h2>La Tonta</h2>
+                        <img src="img/04-discografía/tapas-discos/la-tonta.webp" alt="disco la tonta de jimena baron"><br>
+                    </div>
+                </div>
+                <div class="index-discs__listenmore">
+                    <a href="/html/discografia.html"><img src="img/png-botones/01.png"
+                            alt="enlace a discografia completa"><br>
+                        <h2><span>👉 🎧 Escuchá todos mís
+                                discos 🎧 👈</span></h2>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section id="index-pics">
+            <div class="container index-pics">
+                <div class="pics__tittle">
+                    <h1>Galería de Fotos</h1>
+                </div>
+                <div class="pics__gallery">
+                    <img src="img/05-galeria-fotos/fotos/01.webp" alt="jimena baron foto 01">
+                    <img src="img/05-galeria-fotos/fotos/02.webp" alt="jimena baron foto 02">
+                    <img src="img/05-galeria-fotos/fotos/03.webp" class="fix-img" alt="jimena baron foto 03">
+                    <img src="img/05-galeria-fotos/fotos/04.webp" alt="jimena"><br>
+                </div>
+                <div class="pics__seemore">
+                    <a href="/html/fotos.html"><img src="img/png-botones/02.png" alt="enlace a galeria de fotos"><br>
+                        <h2><span>👉 📸 Mirá más fotos 📸 👈</span></h2>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section id="index-videos">
+            <div class="container index-videos__container">
+                <div class="index-videos__videos">
+                    <div class="index-videos__tittle">
+                        <h1>Videos</h1>
+                    </div>
+                    <div class="videos__premmier">
+                        <h2 class="animate__animated animate__rubberBand animate__delay-2s"><Span>🎵 ESTRENO 🎵</Span></h2>
+                        <P class="animate__animated animate__rubberBand animate__delay-4s">🩸 🖤 LOS LOCOS-Mala Sangre 🖤 🩸</P>
+                        <video src="img/06-videos/videos/08-j mena - Los Locos.mp4" controls autoplay muted
+                            loop></video>
+                        <h2 class="animate__animated animate__shakeX animate__delay-5s"><span>🔈🔉🔊 SUBÍ EL VOLUMEN</span></h2>
+                    </div>
+                    <div class="videos__others">
+                        <video src="img/06-videos/videos/05-j mena - La Cobra.mp4" controls
+                            poster="img/06-videos/fotos videos/05-la cobra.webp"></video>
+                        <video src="img/06-videos/videos/12-j mena - Se Acabó.mp4" controls
+                            poster="img/06-videos/fotos videos/13-se acabo.webp"></video>
+                    </div>
+                    <div class="videos__seemore">
+                        <a href="/html/videos.html"><img src="img/png-botones/03.png" alt="enlace a todos los videos"><br>
+                            <h2><span>👉 📺 Mirá más videos 📺 👈</span></h2>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="performances">
+            <div class="container__performances">
+                <div class="performances">
+                    <h1>Actuaciones</h1>
+                    <div class="performances__gallery">
+                        <div class="gallery__cards">
+                            <img src="img/07-actuaciones/actuaciones-fotos/01-1998-peli.webp" alt="pelidula el faro">
+                            <div class="gallery__texts">
+                                <h3>El Faro</h3>
+                                <p>Película 1998</p>
+                            </div>
+                        </div>
+                        <div class="gallery__cards">
+                            <img src="img/07-actuaciones/actuaciones-fotos/02-1999.webp" alt="novela gasoleros">
+                            <div class="gallery__texts">
+                                <h3>Gasoleros</h3>
+                                <p>1999</p>
+                            </div>
+                        </div>
+                        <div class="gallery__cards">
+                            <img src="img/07-actuaciones/actuaciones-fotos/03-2000.webp" alt="novela calientes">
+                            <div class="gallery__texts">
+                                <h3>Calientes</h3>
+                                <p>2000</p>
+                            </div>
+                        </div>
+                        <div class="gallery__cards">
+                            <img src="img/07-actuaciones/actuaciones-fotos/04-2001.webp" alt="novela sodero de mi vida">
+                            <div class="gallery__texts">
+                                <h3>El Sodero de mi vida</h3>
+                                <p>2001</p>
+                            </div>
+                        </div>
+                        <div class="gallery__cards">
+                            <img src="img/07-actuaciones/actuaciones-fotos/05-2003.webp" alt="novela son amores">
+                            <div class="gallery__texts">
+                                <h3>Son amores</h3>
+                                <p>2003</p>
+                            </div>
+                        </div>
+                        <div class="gallery__cards">
+                            <img src="img/07-actuaciones/actuaciones-fotos/06-2005.webp" alt="novela los roldan">
+                            <div class="gallery__texts">
+                                <h3>Los Roldán</h3>
+                                <p>2005</p>
+                            </div>
+                        </div>
+                        <div class="gallery__cards">
+                            <img src="img/07-actuaciones/actuaciones-fotos/07-2006.webp" alt="novela sos mi vida">
+                            <div class="gallery__texts">
+                                <h3>Sos mi Vida</h3>
+                                <p>2006</p>
+                            </div>
+                        </div>
+                        <div class="gallery__cards">
+                            <img src="img/07-actuaciones/actuaciones-fotos/08-2007.webp" alt="novela por amor a vos">
+                            <div class="gallery__texts">
+                                <h3>Por Amor a Vos</h3>
+                                <p>2007</p>
+                            </div>
+                        </div>
+                        <div class="gallery__cards">
+                            <img src="img/07-actuaciones/actuaciones-fotos/09-2009.webp" alt="novela teen agels">
+                            <div class="gallery__texts">
+                                <h3>Teen Angels</h3>
+                                <p>2009</p>
+                            </div>
+                        </div>
+                        <div class="gallery__cards">
+                            <img src="img/07-actuaciones/actuaciones-fotos/10-2011.webp" alt="novela los unicos">
+                            <div class="gallery__texts">
+                                <h3>Los Únicos</h3>
+                                <p>2011</p>
+                            </div>
+                        </div>
+                        <div class="gallery__cards">
+                            <img src="img/07-actuaciones/actuaciones-fotos/11-bailando2011.webp" alt="bailando por un sueño">
+                            <div class="gallery__texts">
+                                <h3>Bailando por un Sueño</h3>
+                                <p>2011</p>
+                            </div>
+                        </div>
+                        <div class="gallery__cards">
+                            <img src="img/07-actuaciones/actuaciones-fotos/12-clipTu cuerpo bailando en mi cuerpo-2011.webp"
+                                alt="canción tu cuerpo en el mio">
+                            <div class="gallery__texts">
+                                <h3>Tu cuerpo en el mío</h3>
+                                <p>Video clip con Carlos Baute 2011</p>
+                            </div>
+                        </div>
+                        <div class="gallery__cards">
+                            <img src="img/07-actuaciones/actuaciones-fotos/13-2012.webp" alt="novela sos mi hombre">
+                            <div class="gallery__texts">
+                                <h3>Sos mi Hombre</h3>
+                                <p>2012</p>
+                            </div>
+                        </div>
+                        <div class="gallery__cards">
+                            <img src="img/07-actuaciones/actuaciones-fotos/14-2015.webp" alt="novela esperanza mia">
+                            <div class="gallery__texts">
+                                <h3>Esperanza Mía</h3>
+                                <p>2015</p>
+                            </div>
+                        </div>
+                        <div class="gallery__cards">
+                            <img src="img/07-actuaciones/actuaciones-fotos/15-2016.webp" alt="novela educando nina">
+                            <div class="gallery__texts">
+                                <h3>Educando a Nina</h3>
+                                <p>2016</p>
+                            </div>
+                        </div>
+                        <div class="gallery__cards">
+                            <img src="img/07-actuaciones/actuaciones-fotos/16-2017.webp" alt="novela quiero vivir a tu lado">
+                            <div class="gallery__texts">
+                                <h3>Quiero vivir a tu lado</h3>
+                                <p>2017</p>
+                            </div>
+                        </div>
+                        <div class="gallery__cards">
+                            <img src="img/07-actuaciones/actuaciones-fotos/17-2017-peliterror.webp"
+                                alt="pelicula hipersomnia">
+                            <div class="gallery__texts">
+                                <h3>Hipersomnia</h3>
+                                <p>Película de Terror 2017</p>
+                            </div>
+                        </div>
+                        <div class="gallery__cards">
+                            <img src="img/07-actuaciones/actuaciones-fotos/18-2018-peli.webp" alt="pelicula el potro">
+                            <div class="gallery__texts">
+                                <h3>El Potro</h3>
+                                <p>Película 2018</p>
+                            </div>
+                        </div>
+                        <div class="gallery__cards">
+                            <img src="img/07-actuaciones/actuaciones-fotos/19-2018bailando.webp" alt="bailando por un sueño">
+                            <div class="gallery__texts">
+                                <h3>Bailando por un Sueño</h3>
+                                <p>2018</p>
+                            </div>
+                        </div>
+                        <div class="gallery__cards">
+                            <img src="img/07-actuaciones/actuaciones-fotos/20-2019cortaporlozano.webp"
+                                alt="programa corta por lo sano">
+                            <div class="gallery__texts">
+                                <h3>Corta por lo Zano</h3>
+                                <p>Conducción 2019</p>
+                            </div>
+                        </div>
+                        <div class="gallery__cards">
+                            <img src="img/07-actuaciones/actuaciones-fotos/21-2021showmatchlaacademia.webp"
+                                alt="academia show match">
+                            <div class="gallery__texts">
+                                <h3>Showmatch La Academia</h3>
+                                <p>Jurado 2021</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+    </main>
+    <footer id="footer">
+        <div class="footer__container">
+            <div class="footer__copyright">
+                <p>Página diseñada por Gustavo Olmos Design &copy; (Sin fines de lucro ni comerciales)</p>
+            </div>
+            <div class="socials">
+                <div class="follow">
+                    <h2 class="animate__animated animate__shakeX animate__delay-2 animate__repeat-3"><span>Seguime en 👉</span></h2>
+                </div>
+                <div class="networks">
+                    <a href="https://www.instagram.com/jmena/" target="_blank"><img src="img/iconos/instagram.png"
+                            alt="enlace a instagram"></a>
+                    <a href="https://open.spotify.com/artist/6iYRN5eaz8LSxvwkhmwkRj?si=_D-xzflhTYa3AeI8uJlDPA"
+                        target="_blank"><img src="img/iconos/spotify.png" alt="enlace a spotify"></a>
+                    <a href="https://twitter.com/baronjimena?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+                        target="_blank"><img src="img/iconos/twitter.png" alt="encale a twitter"></a>
+                    <a href="https://www.youtube.com/@jmenaOficial" target="_blank"><img src="img/iconos/youtube.png"
+                            alt="enlace a youtube"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

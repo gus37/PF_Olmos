@@ -1,0 +1,46 @@
+@import "../utilities/variables";
+
+/* VIDEOS-HTML */
+.htmlvideos__container {
+    margin-top: -15vh;
+    padding-bottom: 10vh;
+}
+
+.videoshtml__gallery {
+    background-color: $color-darkPrimary;
+    max-width: 100%;
+    max-width: auto;
+    filter: $shadow-img;
+
+    // .carousel-indicators {
+    //     button {
+    //         width: 10px;
+    //         height: 10px;
+    //         border-radius: 100%;
+    //         color: black;
+    //     }
+    // }
+
+    a {
+        text-decoration: none;
+
+        h2 {
+            background-color: $gradient-text;            
+            border-radius: 2%;
+
+            &:hover {
+                transition: $transiton;
+                transform: $transform;
+            }
+        }
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    @media (min-width: $desktop-lg) {
+        max-width: 70%;
+    }
+}
