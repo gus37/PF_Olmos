@@ -2,15 +2,8 @@
 
 /* CONTACTO-HTML */
 .contact__container {
-    form {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-        gap: 10px;
-    }
-
     @media (min-width: $mobile-sm) {
-        margin-bottom: 10vh;
+        margin-bottom: 9vh;
     }
 
     @media (min-width: $tablet-md) {
@@ -20,42 +13,78 @@
     }
 }
 
-.contact__form {
-    h2 {
-        span {
-            font-size: 20px;
+.form__container {
 
-            @media (min-width: $tablet-md) {
-                font-size: 35px;
+    .contact__texts {
+        p{
+            @media (min-width: $desktop-lg) {                
+                font-size: 40px;
             }
-        }        
-    }
-    input, textarea {
-        background-color: $color-lightPrimary;
-        width: 100%;
-        font-size: 20px;
-        border: $border;
-        border-radius: 5px;
+        }
 
-        @media (min-width: $tablet-md) {
-            font-size: 20px;
+        @media (min-width: $desktop-lg) {
+            width: 50%;
+            font-size: 50px;
         }
     }
 
-    button {
-        width: 120px;
-        height: 40px;
-        font-family: $gotic;
-        font-size: 20px;
-        background-color: $color-lightTertiary;
-        color: $color-lightPrimary;
-        border: $border;
-        border-radius: 5px;
+    .contact__form {
 
-        @media (min-width: $tablet-md) {
-            width: 250px;
-            height: 80px;
-            font-size: 30px;
+        form {
+            h2 {
+                span {
+                    font-size: 20px;
+
+                    @media (min-width: $tablet-md) {
+                        font-size: 35px;
+                    }
+                }
+            }
+
+            input,
+            textarea {
+                background-color: $color-lightPrimary;
+                width: 100%;
+                font-size: 20px;
+                border: $border;
+                border-radius: 5px;
+
+                @media (min-width: $tablet-md) {
+                    font-size: 20px;
+                }
+            }
+
+            button {
+                width: 120px;
+                height: 40px;
+                font-family: $gotic;
+                font-size: 20px;
+                background-color: $color-lightTertiary;
+                color: $color-lightPrimary;
+                border: $border;
+                border-radius: 5px;
+
+                @media (min-width: $tablet-md) {
+                    width: 250px;
+                    height: 80px;
+                    font-size: 30px;
+                }
+            }
+
+
         }
+
+        @media (min-width: $desktop-lg) {
+            width: 50%;
+            text-align: end;
+        }
+    }
+
+    @media (min-width: $desktop-lg) {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
     }
 }
