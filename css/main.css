@@ -700,7 +700,6 @@ span {
   width: 10px;
   height: 10px;
   border-radius: 100%;
-  color: black;
 }
 .picshtml__gallery img {
   width: 100%;
@@ -723,6 +722,11 @@ span {
   max-width: 100%;
   max-width: auto;
   filter: drop-shadow(0 0 5px white);
+}
+.videoshtml__gallery .carousel-indicators button {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
 }
 .videoshtml__gallery a {
   text-decoration: none;

@@ -12,14 +12,13 @@
     max-width: auto;
     filter: $shadow-img;
 
-    // .carousel-indicators {
-    //     button {
-    //         width: 10px;
-    //         height: 10px;
-    //         border-radius: 100%;
-    //         color: black;
-    //     }
-    // }
+    .carousel-indicators {
+        button {
+            width: 10px;
+            height: 10px;
+            border-radius: 100%;
+        }
+    }
 
     a {
         text-decoration: none;
