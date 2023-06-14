@@ -220,6 +220,11 @@
     .fix-img {
         object-position: top left;
     }
+
+    @media (min-width: $desktop-lg) {
+        gap: 100px;
+        padding: 100px 0px;
+    }
 }
 
 .pics__seemore {

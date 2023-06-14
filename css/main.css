@@ -478,6 +478,12 @@ span {
   -o-object-position: top left;
      object-position: top left;
 }
+@media (min-width: 1024px) {
+  .pics__gallery {
+    gap: 100px;
+    padding: 100px 0px;
+  }
+}
 
 .pics__seemore a {
   text-decoration: none;
