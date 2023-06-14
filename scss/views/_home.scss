@@ -1,6 +1,11 @@
 @import "../utilities/variables";
+@import "../utilities/mixins";
 
 // Seccion inicio:
+.inicio__container {
+    @include container();
+}
+
 .inicio__texts {
     h1 {
         font-family: $typewriter;
@@ -36,22 +41,11 @@
 
 }
 
-.inicio__completedisc .escuchalo {
-    display: inline-block;
-
-    span {
-        font-size: 18px;
-        text-shadow: $shadow-dark;
-
-        @media (min-width: $tablet-md) {
-            font-size: 30px;
-        }
+.inicio__completedisc {
+    a {
+        text-decoration: none;
+        color: $color-black;
     }
-}
-
-.inicio__completedisc a {
-    text-decoration: none;
-    color: $color-black;
 
     img {
         width: 40px;
@@ -70,11 +64,26 @@
             padding: 0 10px;
         }
     }
+}
 
+.escuchalo {
+    display: inline-block;
+
+    span {
+        font-size: 18px;
+        text-shadow: $shadow-dark;
+
+        @media (min-width: $tablet-md) {
+            font-size: 30px;
+        }
+    }
 }
 
 //Seccion biografia:
 .bio__container {
+    @include container ();
+    background-image: $gradient, url(../img/02-bio/bg-bio-sepia.webp);
+
     @media (min-width:$desktop-lg) {
         flex-direction: row;
     }
@@ -100,7 +109,13 @@
     text-align: center;
 }
 
+
 // Seccion tour:
+.tour__container {
+    @include container();
+    background-image: $gradient, url(../img/03-tour/bg-tour/bg-tour-sepia.webp);
+}
+
 .tour__videopremiere {
     video {
         width: 300px;
@@ -150,6 +165,11 @@
 // Seccion discografia:
 
 /* DISCOGRAFIA-index */
+.index-disc__container {
+    @include container();
+    background-image: $gradient, url(../img/04-discografía/bg-discografia/01-bg-index-disc-sepia.webp);
+    text-align: center;
+}
 .index-disc__discs {
 
     @media (min-width: $desktop-lg) {
@@ -187,6 +207,11 @@
 }
 
 // Seccion fotos:
+.index-pics {
+    @include container();
+    background-image: $gradient, url(../img/05-galeria-fotos/bg-galfotos/fondo-index-galeria-sepia.webp);
+    text-align: center;
+}
 .pics__gallery {
     img {
         object-fit: cover;
@@ -224,6 +249,11 @@
 }
 
 // seccion videos:
+.index-videos__container {
+    @include container();
+    background-image: $gradient, url(../img/06-videos/bg-videos/fondo-index-videos-sepia.webp);
+    text-align: center;
+}
 .videos__premmier {
     p {
         font-size: 15px;
@@ -284,6 +314,11 @@
 }
 
 // Seccion actuaciones:
+.container__performances {
+    @include container();
+    background-image: $gradient, url(../img/07-actuaciones/bg-actuaciones/bg-actuaciones-sepia.webp);
+    text-align: center;
+}
 .performances__gallery {
     display: grid;
     justify-items: center;

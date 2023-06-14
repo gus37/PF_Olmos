@@ -2,6 +2,13 @@
 
 /* CONTACTO-HTML */
 .contact__container {
+    @include container();
+    background-image: $gradient, url(../img/08-bg-contacto/contactos-sepia.webp);
+    height: auto;
+    padding-top: 25vh;
+    margin-bottom: 12vh;
+    gap: 10px;
+
     @media (min-width: $mobile-sm) {
         margin-bottom: 9vh;
     }

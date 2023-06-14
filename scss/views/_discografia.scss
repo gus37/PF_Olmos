@@ -1,6 +1,14 @@
 @import "../utilities/variables";
 
 /* DISCOGRAFIA-HTML */
+.discs-html__container {
+    @include container();
+    background-image: $gradient, url(../img/04-discografía/bg-discografia/02-bg-html-disc-sepia.webp);
+    text-align: center;
+    padding-top: 15vh;
+    margin-bottom: 15vh;
+    gap: 10px;
+}
 .disc-html__lists {
     display: flex;
     flex-direction: column;

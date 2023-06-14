@@ -2,8 +2,14 @@
 
 /* GALERIA DE FOTOS */
 .picsgalleryhtml__container {
-    margin-top: -15vh;
-    padding-bottom: 10vh;
+    @include container();
+    background-image: $gradient, url(../img/05-galeria-fotos/bg-galfotos/fondo-galeria-sepia.webp);
+    height: auto;
+    text-align: center;
+    padding-top: 9vh;
+    padding-bottom: 25vh;
+    margin-bottom: 12vh;
+    gap: 10px;
 }
 
 .picshtml__gallery {
@@ -26,6 +32,7 @@
     }
 
     @media (min-width: $desktop-lg) {
-        max-width: 60%;
+        max-width: 70%;
+        
     }
 }
